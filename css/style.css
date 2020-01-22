@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.clearfix {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.container-fullwidthtop {
+    background-color: #0d325a;
+}
+
+.container-fullwidthmiddle {
+    padding-bottom: 15px;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    height: 500px;
+    background-color: red;
+    margin: 0 auto;
+    position: relative;
+}
+
+.containerbianco {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 5%;
+    width: 33.33333%;
+    float: left;
+}
+
+h3 {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    color: olive;
+}
+
+p {
+    margin-top: 5%;
+}
+
+hr {
+    width: 30px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.boxtesto {
+    width: 33.33333%;
+    float: left;
+    text-align: center
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+header {
+    height: 70px;
+    background-color: orange;
+}
+
+.banner {
+    background-image: url("../img/oldman.png");
+    background-color: yellow;
+    position: absolute;
+    height: 50%;
+    width: 50%;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+}
+
+.riga {
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    padding-top: 1%;
+    background-color: rgb(249,249,249);
+    line-height: 2.5;
+}
